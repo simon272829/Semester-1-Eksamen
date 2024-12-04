@@ -1,0 +1,16 @@
+.print-icon {
+    position: relative; /* Gør det relativt i forhold til dens container */
+    text-align: right;  /* Placer til højre */
+    margin: 10px 15px;  /* Afstand fra toppen og siden */
+}
+
+.print-icon i {
+    font-size: 24px;    /* Størrelse på ikonet */
+    color: #007bff;     /* Farve på ikonet */
+    cursor: pointer;    /* Gør det klikbart */
+    transition: color 0.3s ease; /* Smidig hover-effekt */
+}
+
+.print-icon i:hover {
+    color: #0056b3;     /* Mørkere farve ved hover */
+}
