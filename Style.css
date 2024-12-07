@@ -14,3 +14,17 @@
 .print-icon i:hover {
     color: #0056b3;     /* Mørkere farve ved hover */
 }
+
+.center-image {
+    display: flex;            /* Gør det muligt at centrere med flexbox */
+    justify-content: center;  /* Centrerer vandret */
+    align-items: center;      /* Centrerer lodret */
+    height: 100vh;            /* Gør beholderen lige så høj som vinduet */
+}
+
+.center-image img {
+    max-width: 100%;          /* Forhindre billedet i at blive for stort */
+    max-height: 90%;         /* Skaler billedet, hvis det er større end vinduet */
+    object-fit: contain;      /* Sikrer korrekt skalering */
+}
+
